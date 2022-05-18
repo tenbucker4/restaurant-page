@@ -1,0 +1,71 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content {
+    font-family: "Montserrat", sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.main-content {
+    color: white;
+    background-image: url(./kitchen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: 80vh;
+}
+
+.card {
+    background-color: rgba(30, 30, 30, 0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    border: 2px solid rgba(30, 30, 30, 0.2);
+    width: fit-content;
+    height: fit-content;
+    padding: 24px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card h1 {
+    font-size: 3rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: auto;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+}
